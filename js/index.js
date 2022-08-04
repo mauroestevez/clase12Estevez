@@ -24,7 +24,7 @@ const clientes = ["karina", "mauro", "franco", "pablo"];
 
 
 
-// Traemos el boton inicial y le ponemos un evento "click". Con él borramos algunos parrafos, le pedimos el nombre al usuario y creamos un form para recibir la respuesta
+// Traemos el botón inicial y le ponemos un evento "click". Con él borramos algunos parrafos, le pedimos el nombre al usuario y creamos un form para recibir la respuesta
 
 let botonInicial = document.getElementById("btnInicial")
 botonInicial.addEventListener("click", despejar)
