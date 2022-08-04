@@ -131,6 +131,10 @@ function despejar(){
                                     avisoFinal.innerText = "Usted debera pagar " + e.target.children[0].value + " cuotas de " + resultado + " pesos";
                                     padreDiv.append(avisoFinal);
 
+                                    // Agregamos un ternario para avisarle al usuario con un ALERT si el monto de su cuota supera los 1000 pesos
+
+                                    resultado > 1000 ? alert("ALERTA: La cuota supera los 1000 pesos") : alert("La cuta no supera los 1000 pesos");
+
                                     // Por ultimo le agradecemos al cliente
 
                                     let saludoFinal = document.createElement("p");
